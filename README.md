@@ -1,4 +1,4 @@
-# Data Warehouse
+# Datalake
 
 The purpose of this project is to build ETL by using Spark to process raw data from S3, The JSON data from S3 bucket will be loaded into DataFrame to transform before the data will being loaded into a star schema with fact and dimention tables in parquet format in S3. A star schema help to query quickly and aggregation are fast.
 
